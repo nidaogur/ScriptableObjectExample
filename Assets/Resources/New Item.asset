@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 249f7ed5a607404b9419860a61fba114, type: 3}
+  m_Name: New Item
+  m_EditorClassIdentifier: 
+  itemName: Shield
+  description: 'A sturdy shield made using the bones of your enemies
+
+'
+  model: {fileID: 1337628571566713750, guid: f5d7a7bce1e6ab54eaa8b2ea2a303542, type: 3}
+  icon: {fileID: 21300000, guid: e184ef902e4f1884896a11b2659a4abb, type: 3}
+  cost: 100
+  canDiscard: 1

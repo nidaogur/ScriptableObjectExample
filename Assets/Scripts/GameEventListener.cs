@@ -11,12 +11,10 @@ public class GameEventListener:MonoBehaviour
         {
                 gameEvent.AddListener(this);
         }
-
         private void OnDisable()
         {
                 gameEvent.RemoveListener(this);
         }
-
         public void OnEventTriggered()
         {
              onEventTriggered.Invoke();   
